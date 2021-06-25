@@ -1,12 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "Midnight In Paris",
-        "runtime": 89,
-        "release_year": 2009,
-        "director": "Woody Allen"
-    },
-    {
         "id": 2,
         "title": "Titanic",
         "runtime": 210,
