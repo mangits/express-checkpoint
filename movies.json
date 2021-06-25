@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Midnight In Paris",
+        "runtime": 89,
+        "release_year": 2009,
+        "director": "Woody Allen"
+    },
+    {
+        "id": 2,
+        "title": "Titanic",
+        "runtime": 210,
+        "release_year": 1998,
+        "director": "James Cameron"
+    },
+    {
+        "id": 3,
+        "title": "From Paris With Love",
+        "runtime": 94,
+        "release_year": 2010,
+        "director": "Pierre Morel"
+    },
+    {
+        "id": 4,
+        "title": "Everywhere You Don't Belong",
+        "runtime": 92,
+        "release_year": 2020,
+        "director": "Jared JingleBerry"
+    }
+]
