@@ -2,10 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 
-router.get('cookies/users', (_, response, next) => {
-    const username = 'A user from the cookie!'
-    response.cookie('users', username)
-    response.end();
+
+router.get('/', (req, res, next) => {
+    console.log(req.cookies)
+    res.send(`Hello ${req.cookies.firstName} ${req.cookies.lastName}`)
+    res.end();
 });
 
 module.exports = router;
