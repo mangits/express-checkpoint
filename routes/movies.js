@@ -25,9 +25,9 @@ router.get('/:id', (req, res, next) => {
 }) //working
 
 router.post('/', (req, res, next) => {
-
-    movies.push()
-    fs.writeFile('movies.json', JSON.stringify(moviesArray), (err) => {
+    let newMovie = { 'id': movies.length + 1, ...req.body }
+    movies.push(newMovie)
+    fs.writeFile('movies.json', JSON.stringify(movies), (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
     })
